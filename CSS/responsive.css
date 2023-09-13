@@ -1,0 +1,74 @@
+@media (max-width: 991px) {
+
+    /* 1. Custom css  */
+    section {
+        padding: 30px 0;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+    /* 2. Navbar  */
+    .header-scrolled {
+        height: auto;
+    }
+    .header-wrapper .menu-navbar-nav {
+        text-align: center;
+        background-color: var(--bg-dark-blue);
+        padding-bottom: 15px;
+    }
+    .header-wrapper .nav-item .nav-link {
+        margin-top: 15px;
+    }
+    /* 3. Banner  */
+    .banner-wrapper {
+        padding: 200px 0;
+    }
+    /* 4. About  */
+
+    /* 5. Services  */
+
+    /* 6. Portfolio */
+    .portfolio-wrapper .card  {
+        min-height: 400px;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+
+    /* 1. Custom css  */
+    h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    /* 4. About  */ 
+
+    /* 6. Portfolio */
+    .portfolio-wrapper .card  {
+        min-height: 500px;
+    }
+}
+
+@media (max-width: 576px) {
+    /*  About  */
+    .about-wrapper ul.nav-pills {
+        width: 100%;
+        margin: auto;
+        border: 0;
+    }
+}
