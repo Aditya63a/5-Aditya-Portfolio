@@ -26,17 +26,13 @@
   --bg-dark-blue: #091020;
   --bg-white: #fff;
   --gray-color: #c6c9d8bf;
-  --gradient-color: linear-gradient(
-    -224deg,
-    var(--primary-color) 0,
-    #337dff 100%
-  );
-  --gradient-text: linear-gradient(
-    120deg,
-    #1c99fe 20.69%,
-    #7644ff 50.19%,
-    var(--primary-color) 79.69%
-  );
+  --gradient-color: linear-gradient(-224deg,
+      var(--primary-color) 0,
+      #337dff 100%);
+  --gradient-text: linear-gradient(120deg,
+      #1c99fe 20.69%,
+      #7644ff 50.19%,
+      var(--primary-color) 79.69%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--primary-color)', endColorstr='var(--secondary-color)', GradientType=1);
 
   /*  Text Color */
@@ -413,11 +409,11 @@ button {
 }
 
 .footer-wrapper .copyright-text p {
-    font-size: 11px;
-    line-height: 20px;
+  font-size: 11px;
+  line-height: 20px;
 }
 
 .footer-wrapper .copyright-text a {
-    color: var(--primary-color);
-    justify-content: space-evenly;
+  color: var(--primary-color);
+  justify-content: space-evenly;
 }
