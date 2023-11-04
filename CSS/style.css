@@ -355,6 +355,12 @@ button {
   background-position: bottom center;
 }
 
+.portfolio-wrapper .card .go-to-web {
+  background-color: var(--bg-dark-blue);
+  text-align: center;
+  color: var(--text-gray);
+}
+
 /* 7. Contact */
 
 .contact-wrapper .form-control,
